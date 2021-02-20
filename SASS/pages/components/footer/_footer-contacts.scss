@@ -1,0 +1,20 @@
+
+.footer{
+  &-address {
+    color: var(--title-color);
+  }
+  &-contacts {
+    line-height: 1.7;
+    color: var(--footer-email-tel);
+    transition: color 250ms var(--cubic);
+  }
+  &-list {
+    display: inline-block;
+    transition: color 250ms var(--cubic);
+    &:hover .footer-address,
+    &:focus .footer-address {
+      color: var(--accent-color);
+    }
+  }
+}
+

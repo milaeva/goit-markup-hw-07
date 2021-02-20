@@ -1,0 +1,14 @@
+
+.footer{
+  &-social {
+    width: 206px;
+  }
+}
+
+.social-list {
+  .social-list-item {
+    color: var(--title-color);
+    background-color: var(--footer-social-link);
+    transition: color 250ms var(--cubic), background-color 250ms var(--cubic);
+  }
+}

@@ -1,0 +1,32 @@
+
+.close{
+  &-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background: var(--title-color);
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: var(--title-text-color);
+    &:focus {
+      outline: none;
+    }
+  }
+  &-sign {
+    fill: currentColor;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
+  }
+}
+
+.close-button:focus .close-sign,
+.close-button:hover .close-sign {
+  color: var(--accent-color);
+}

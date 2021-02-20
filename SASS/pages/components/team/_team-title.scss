@@ -1,0 +1,14 @@
+.team{
+  &-name{    
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+    margin-top: 0;
+    margin-bottom: 10px;    
+  }
+  &-profession {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}

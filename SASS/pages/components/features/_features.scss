@@ -1,0 +1,29 @@
+.list{
+  &-title {
+    text-transform: uppercase;
+  }
+  &-text {
+    line-height: 1.7;
+  }
+}
+
+.section{
+  &-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.features{
+  &-list {
+    display: flex;
+    text-align: left;
+  }
+}
+.features-list {
+  &> li {
+    width: calc((100% - (3 * 30px)) / 4);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }  
+}

@@ -1,0 +1,22 @@
+
+.team{
+  &-list {
+    display: flex;
+  }
+  &-items {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+      0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+    background-color: var(--title-color);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &-foto {
+    display: block;
+  }
+}
+
+.cards {
+  padding: 30px 32px;
+}

@@ -1,0 +1,26 @@
+.overlay {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: rgba(33, 150, 243, 0.9);
+  padding: 50px 24px;
+  transform: translateY(101%);
+  transition: transform 250ms var(--cubic), background 250ms var(--cubic);
+  & > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--title-color);
+    text-align: left;
+    transition: transform 250ms var(--cubic);
+  }
+  .portfolio-element:hover &,
+  .portfolio-element:focus-within & {
+    transform: translateY(0);
+  }
+}
+

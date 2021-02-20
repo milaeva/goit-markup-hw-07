@@ -1,0 +1,14 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-accent-color);
+  &-wrapper {
+    margin-right: 70px;
+    text-align: left;
+  }
+  &-container {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+  }
+}

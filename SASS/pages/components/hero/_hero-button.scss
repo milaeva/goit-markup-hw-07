@@ -1,0 +1,22 @@
+
+.hero{
+  &-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    background-color: var(--accent-color);
+    color: var(--title-color);
+    border-radius: 4px;
+    border-color: transparent;
+    transition: background-color 250ms var(--cubic), color 250ms var(--cubic);
+    &:hover,
+    &:focus {
+      background-color: var(--hero-btn);
+    }
+  }
+  &-btn {
+    padding: 10px 32px;
+    min-width: 200px;
+  }
+}

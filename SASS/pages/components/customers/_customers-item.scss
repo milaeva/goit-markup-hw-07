@@ -1,0 +1,43 @@
+
+.customers{
+  &-list {
+    display: flex;
+    color: var(--team-social-icon);
+  }
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }    
+  }
+}
+
+.customers{
+  &-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--team-social-icon);
+    border-radius: 4px;
+    transition: color 250ms var(--cubic), border 250ms var(--cubic);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      border-color: var(--accent-color);
+      outline: none;
+    }
+  }
+}
+
+.client{
+  &-icon {
+    fill: currentColor;
+  }
+}

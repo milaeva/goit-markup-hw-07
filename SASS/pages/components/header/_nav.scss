@@ -1,0 +1,16 @@
+.menu {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  &-nav {
+    color: var(--primary-text-color);
+  }
+  &-contact {
+    color: var(--nav-contact-color);
+    font-weight: 500;
+  }
+}
+.current {
+  color: var(--accent-color);
+}
+
