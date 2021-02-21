@@ -26,7 +26,9 @@
   }
 }
 
-.close-button:focus .close-sign,
-.close-button:hover .close-sign {
-  color: var(--accent-color);
+.close-button{
+  &:focus .close-sign,
+  &:hover .close-sign {
+    color: var(--accent-color);
+  }  
 }

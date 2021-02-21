@@ -18,3 +18,11 @@
   }
 }
 
+.footer{
+  &-contacts{
+    &:hover,
+    &:focus {
+      color: var(--accent-color);        
+    }      
+  }
+}

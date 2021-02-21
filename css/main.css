@@ -76,16 +76,6 @@ img {
   transition: color 250ms var(--cubic);
 }
 
-.current,
-.menu-nav:hover,
-.menu-nav:focus,
-.menu-contact:hover,
-.menu-contact:focus,
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--accent-color);
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -132,6 +122,14 @@ img {
 }
 
 .current {
+  color: var(--accent-color);
+}
+
+.menu-nav:hover, .menu-nav:focus {
+  color: var(--accent-color);
+}
+
+.menu-contact:hover, .menu-contact:focus {
   color: var(--accent-color);
 }
 
@@ -528,6 +526,10 @@ img {
   color: var(--accent-color);
 }
 
+.footer-contacts:hover, .footer-contacts:focus {
+  color: var(--accent-color);
+}
+
 .footer-title {
   margin-top: 0;
   margin-bottom: 20px;
@@ -544,7 +546,7 @@ img {
   width: 206px;
 }
 
-.social-list .social-list-item {
+.social-list-item {
   color: var(--title-color);
   background-color: var(--footer-social-link);
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic);

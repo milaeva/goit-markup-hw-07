@@ -14,3 +14,17 @@
   color: var(--accent-color);
 }
 
+.menu{
+  &-nav{
+    &:hover,
+    &:focus{
+      color: var(--accent-color)
+    }
+  }
+  &-contact{
+    &:hover,
+    &:focus{
+      color: var(--accent-color)
+    }
+  }
+}

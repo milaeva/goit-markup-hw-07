@@ -6,7 +6,7 @@
 }
 
 .social-list {
-  .social-list-item {
+  &-item {
     color: var(--title-color);
     background-color: var(--footer-social-link);
     transition: color 250ms var(--cubic), background-color 250ms var(--cubic);

@@ -17,13 +17,10 @@
   }
 }
 
-.old-checkbox + .label {
-  display: inline-flex;
-  align-items: center;
-}
-
 .old-checkbox {
   &+ .label{
+    display: inline-flex;
+    align-items: center;
     &::before {
       content: " ";
       display: inline-block;

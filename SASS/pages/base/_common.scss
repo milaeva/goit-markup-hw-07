@@ -39,12 +39,3 @@ img {
   transition: color 250ms var(--cubic);
 }
 
-.current,
-.menu-nav:hover,
-.menu-nav:focus,
-.menu-contact:hover,
-.menu-contact:focus,
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--accent-color);
-}
